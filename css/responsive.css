@@ -1,0 +1,419 @@
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .header-search {
+        padding: 15px 0px;
+    }
+}
+
+
+/*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 599px) and (max-width: 767px) {
+    .logo {
+        text-align: center;
+    }
+    .cart-content-right {
+        padding-bottom: 5px;
+    }
+    .mg {
+        margin: 0px 0px;
+    }
+    .menu-area-main {
+        height: 256px;
+        overflow-y: auto;
+    }
+    .megamenu>.row [class*="col-"] {
+        padding: 0px;
+    }
+    .menu-area-main .megamenu .men-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .women-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .el-cat {
+        padding: 0px 15px;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        height: 19px;
+    }
+    .category-box.women-box {
+        display: none;
+    }
+    .cart-box {
+        display: inline-block;
+        margin: 0px 30px;
+    }
+    .wish-box {
+        float: none;
+        margin: 0px 30px;
+        display: inline-block;
+    }
+    .menu-add {
+        display: none;
+    }
+    .category-box {
+        display: none;
+    }
+    .mean-container .mean-nav ul li ol {
+        padding: 0px;
+    }
+    .mean-container .mean-nav ul li a {
+        padding: 10px 20px;
+        width: 94.8%;
+    }
+    .mean-container .mean-nav ul li li a {
+        width: 92%;
+        padding: 1em 4%;
+    }
+    .mean-container .mean-nav ul li li li a {
+        width: 100%;
+    }
+    .header-search {
+        padding: 15px 0px;
+    }
+    #collapseFilter.d-md-block {
+        padding: 30px 0px;
+    }
+}
+
+
+/*------------------------------------------------------------------- 599px x 280px ---------------------------------------------------------------------*/
+
+@media only screen and (min-width: 280px) and (max-width: 599px) {
+    .cart-content-right {
+        padding-bottom: 5px;
+    }
+    .megamenu>.row [class*="col-"] {
+        padding: 0px;
+    }
+    .menu-area-main .megamenu .men-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .women-cat {
+        padding: 0px 15px;
+    }
+    .menu-area-main .megamenu .el-cat {
+        padding: 0px 15px;
+    }
+    .mean-container .mean-nav ul li a {
+        padding: 1em 4%;
+        width: 92%;
+    }
+    .mean-container .mean-nav ul li li a {
+        width: 90%;
+        padding: 1em 5%;
+    }
+    .mean-container .sub-full.megamenu-categories ol li a {
+        padding: 5px 0px;
+        text-transform: capitalize;
+        width: 100%;
+    }
+    .megamenu .sub-full.megamenu-categories .women-box .banner-up-text a {
+        width: auto;
+        border: none;
+        float: none;
+    }
+    .menu-area-main {
+        height: 45px;
+        overflow-y: auto;
+    }
+    .mean-container .mean-nav ul li a.mean-expand {
+        top: 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+.header_social_icon li {
+    padding: 1px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 6px;
+    padding-left: 5px;
+    font-size: 16px;
+}
+.about_taital_main {
+    padding-top: 150px;
+}
+.about_section{
+    padding-top: 0px;
+}
+.image_bg {
+    padding: 166px 0px;
+}
+.improve_section_2{
+    background-size: cover;
+}
+
+
+
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #main_slider a.carousel-control-prev {
+        position: absolute;
+        left: 175px;
+        top: 90%;
+        display: none;
+    }
+    #main_slider a.carousel-control-next {
+        position: absolute;
+        left: 236px;
+        top: 90%;
+        display: none;
+    }
+.logo {
+    width: 100%;
+}
+.bg-light {
+    background-color: transparent !important;
+    float: right;
+}
+.banner_section {
+    padding-bottom: 90px;
+}
+.navbar-toggler {
+    background-color: #fff;
+}
+.header_social_icon{
+    display: none;
+}
+.header_section {
+    background-size: cover;
+}
+.about_taital_main {
+    padding-top: 70px;
+}
+.about_taital {
+    font-size: 28px;
+}
+.about_box_2 {
+    left: -110px;
+}
+.image_bg {
+    padding: 104px 0px;
+}
+.improve_section_2{
+    background-size: cover;
+}
+.gallery_section{
+    margin-top: 0px;
+}
+.client_text {
+    width: 90%;
+}
+.useful_text {
+    padding-top: 30px;
+}
+
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    #main_slider a.carousel-control-prev {
+        position: absolute;
+        left: 175px;
+        top: 90%;
+        display: none;
+    }
+    #main_slider a.carousel-control-next {
+        position: absolute;
+        left: 236px;
+        top: 90%;
+        display: none;
+    }
+.logo {
+    width: 100%;
+}
+.bg-light {
+    background-color: transparent !important;
+    float: right;
+}
+.navbar-toggler {
+    background-color: #fff;
+}
+.header_social_icon{
+    display: none;
+}
+.header_section {
+    background-size: cover;
+}
+.banner_taital{
+    font-size: 50px;
+}
+.banner_section {
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+.about_taital_main {
+    padding-top: 0;
+}
+.about_taital {
+    font-size: 30px;
+}
+.making_text {
+   font-size: 20px;
+}
+.about_box_2{
+    left: 0px;
+}
+.improve_taital {
+    font-size: 40px;
+}
+.improve_text {
+    width: 100%;
+}
+.image_bg {
+    padding: 140px 0px;
+    background-size: cover;
+}
+.play_icon {
+    width: 60px;
+}
+.play_icon::before {
+    top: 30px;
+    left: 30px;
+    width: 70px;
+    height: 70px;
+}
+.improve_section_2 {
+    margin-top: 90px;
+    padding: 40px 0px;
+    margin-bottom: 0;
+    background-size: cover;
+}
+.gallery_taital{
+    margin-top: 0px;
+    font-size: 30px;
+}
+.client_main{
+    display: inline-block;
+}
+.client_taital{
+    font-size: 30px;
+}
+.client_text {
+    width: 100%;
+}
+.client_text_main {
+    width: 100%;
+}
+.contact_section{
+    padding-top: 0px;
+    padding-bottom: 90px;
+}
+.mail_section_1 {
+    width: 100%;
+}
+    .useful_text {
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 575px) {
+    #main_slider a.carousel-control-prev {
+        position: absolute;
+        left: 175px;
+        top: 90%;
+        display: none;
+    }
+    #main_slider a.carousel-control-next {
+        position: absolute;
+        left: 236px;
+        top: 90%;
+        display: none;
+    }
+.logo {
+    width: 100%;
+}
+.bg-light {
+    background-color: transparent !important;
+    float: right;
+    padding-right: 0px;
+}
+.navbar-toggler {
+    background-color: #fff;
+}
+.header_social_icon{
+    display: none;
+}
+.header_section {
+    background-size: cover;
+}
+.banner_taital{
+    font-size: 30px;
+}
+.banner_section {
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+.about_taital_main {
+    padding-top: 0;
+}
+.about_taital {
+    font-size: 26px;
+}
+.making_text {
+   font-size: 18px;
+}
+.about_box_2{
+    left: 0px;
+}
+.improve_taital {
+    font-size: 30px;
+}
+.improve_text {
+    width: 100%;
+    font-size: 15px;
+}
+.image_bg {
+    padding: 40px 0px;
+    background-size: cover;
+}
+.play_icon {
+    width: 60px;
+}
+.play_icon::before {
+    top: 30px;
+    left: 30px;
+    width: 70px;
+    height: 70px;
+}
+.improve_section_2 {
+    margin-top: 90px;
+    padding: 40px 0px;
+    margin-bottom: 0;
+    background-size: cover;
+}
+.gallery_taital{
+    margin-top: 0px;
+    font-size: 30px;
+}
+.client_main{
+    display: inline-block;
+}
+.client_taital{
+    font-size: 30px;
+}
+.client_text {
+    width: 100%;
+}
+.client_text_main {
+    width: 100%;
+}
+.contact_section{
+    padding-bottom: 90px;
+}
+.mail_section_1 {
+    width: 100%;
+}
+    .useful_text {
+        padding-top: 30px;
+    }
+}
